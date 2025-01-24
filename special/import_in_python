@@ -1,0 +1,30 @@
+=>Importing in Python is the process of bringing external modules, libraries, 
+  or specific parts of them into your Python program. This allows you to reuse
+  code and access functions, classes, and variables from other files or
+  built-in libraries without having to rewrite them.
+
+->Importing an Entire Module:
+       >import <name>
+       ex:import math
+
+
+-> Importing Specific Functions or Classes:
+       >from <name> import <specific <name>>
+       ex:from math import sqrt
+
+
+->Importing with an Alias:
+       >import <name> as <required name>
+        ex:import numpy as np
+    
+
+->Importing with *:
+       >from <name> import *
+       ->>Avoid Using from module import *:
+          This can lead to naming conflicts and make code harder to debug.
+
+->Importing custom module:
+        >import <module name>
+
+
+**we have dir() function which gives the details of functions and variabkes that a module have
